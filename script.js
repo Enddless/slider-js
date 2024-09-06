@@ -1,41 +1,41 @@
 /*объявляем массив изображений*/
 let images = [{
     url: "images/img1.png",
-    title: "Заголовок слайда 1",
+    title: "Заголовок 1",
     description: "Описание 1.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     btnText: "Текст кнопки 1",
 }, {
     url: "images/img2.png",
-    title: "Заголовок слайда 2",
+    title: "Заголовок 2",
     description: "Описание2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
     btnText: "Текст кнопки 2",
 }, {
     url: "images/img3.png",
-    title: "Заголовок слайда 3",
+    title: "Заголовок 3",
     description: "Описание3. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
     btnText: "Текст кнопки 3",
 },
 {
     url: "images/img4.png",
-    title: "Заголовок слайда 4",
+    title: "Заголовок 4",
     description: "Описание4. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
     btnText: "Текст кнопки 4",
 },
 {
     url: "images/img5.png",
-    title: "Заголовок слайда 5",
+    title: "Заголовок 5",
     description: "Описание5. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
     btnText: "Текст кнопки 5",
 },
 {
     url: "images/img6.png",
-    title: "Заголовок слайда 6",
+    title: "Заголовок 6",
     description: "Описание6. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
     btnText: "Текст кнопки 6",
 },
 {
     url: "images/img7.png",
-    title: "Заголовок слайда 7",
+    title: "Заголовок 7",
     description: "Описание7. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
     btnText: "Текст кнопки 7",
 }
@@ -58,7 +58,7 @@ function Slider() {
 
     initImages();
     initArrows();
-    initAutoplay();
+    // initAutoplay();
 
     /*инициализация галереи изображений*/
     function initImages() {
