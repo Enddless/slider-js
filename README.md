@@ -21,7 +21,7 @@
 - 📁 fonts/
 - 📁 images/
 - 📁 styles/ 
-- index.html # Основной HTML файл
+- index.html 
 
 ## Используемые технологии
 - стилизация с помощью CSS styles.
